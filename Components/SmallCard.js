@@ -7,7 +7,7 @@ function SmallCard({ img, location, distance}) {
         duration-200 ease-out">
             {/* Left*/}
             <div className="relative h-16 w-16">
-            <Image src={img} layout="fill"/>
+            <Image src={img} layout="fill" className="rounded-lg"/>
             </div>
             {/* Right*/}
             <div>
