@@ -14,7 +14,7 @@ function LargeCard({img, title, description, button}) {
                 </div>
 
 
-                <div className="absolute top-32 left-12 px-20">
+                <div className="absolute top-32 left-12 py-10 md:px-20">
                 <h3 className="text-4xl mb-3 w-64">{title}</h3>
                 <p>{description}</p>
 
